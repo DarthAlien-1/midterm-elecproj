@@ -74,42 +74,6 @@ Inverts pixels with brightness above 128 for a solarization effect.
 ### Rotate 90° Clockwise
 Rotates images 90 degrees in the clockwise direction.
 
----
-
-## How to Use the Automated Image Processing System
-
-### 1. Installation
-git clone https://github.com/DarthAlien-1/elec4-midterm.git
-cd elec4-midterm
-pip install -r requirements.txt
-
-### 2. Upload/Input Images
-- Place the image or images you want to process inside the input_images folder.  
-- Supported image formats include .jpg, .png, and .jpeg.
-
-### 3. Program Start
-- Run the processor script:
-python processor.py
-- The system automatically processes all images found in the input_images folder.
-
-### 4. Automated Processing
-Each input image undergoes the following operations:
-- Thermal Vision (Heatmap)  
-- Motion Blur (Directional)  
-- Mirror Flip (Horizontal)  
-- Channel Swap (BGR → RGB)  
-- Solarize  
-- Rotate 90° Clockwise
-
-### 5. Output Results
-- All processed images are automatically saved in the output_images folder.  
-- Each image processing feature generates its own output file with a descriptive prefix for easy comparison and validation.
-
-### 6. Testing
-- Run automated tests using PyTest:
-pytest test_process.py
-
----
 
 ## Author
 - Clemente, Jose Fernando - Image Processing Lead 
