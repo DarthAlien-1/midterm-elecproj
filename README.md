@@ -33,22 +33,22 @@ elec4-midterm\
 \
 │   └── workflows
 \
-│       └── ci.yml                # GitHub Actions pipeline and Project Dependencies 
+│       └── ci.yml   &emsp; &emsp; &emsp; &emsp; &emsp; &ensp; &thinsp;         # GitHub Actions pipeline and Project Dependencies 
 \
 │ 
 \
-├── input_images                 # Drop images here (trigger CI) \
+├── input_images   &emsp; &emsp; &emsp; &emsp;             # Drop images here (trigger CI) \
 │   └── sample.jpg 
 \
 │ 
 \
-├── output_images/                # Processed images appear here \
+├── output_images  &emsp; &emsp; &emsp; &nbsp;            # Processed images appear here \
 │   └── sample_thermal.jpg  
 │
 \
-├── processor.py                  # Image processing logic\
-├── test_process.py               # Pytest validations\
-├── requirements.txt              # Project Dependencies\
+├── processor.py     &emsp; &emsp; &emsp; &emsp; &thinsp; # Image processing logic\
+├── test_process.py  &emsp; &emsp; &emsp; &thinsp; # Pytest validations\
+├── requirements.txt &emsp; &emsp; &emsp; # Project Dependencies\
 │       \
 └── README.md
 
