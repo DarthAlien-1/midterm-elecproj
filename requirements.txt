@@ -1,3 +1,6 @@
 opencv-python
 pytest
 numpy
+flake8
+bandit
+pip-audit
