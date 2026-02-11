@@ -26,22 +26,30 @@ Automated Image Processing is a Python-based image processing application that d
 
 ## Project Structure 
 text
-elec4-midterm/
+elec4-midterm\
 │
-├── .github/
-│   └── workflows/
-│       └── ci.yml                # GitHub Actions pipeline and Project Dependencies
+\
+├── .github
+\
+│   └── workflows
+\
+│       └── ci.yml                # GitHub Actions pipeline and Project Dependencies 
+\
+│ 
+\
+├── input_images                 # Drop images here (trigger CI) \
+│   └── sample.jpg 
+\
+│ 
+\
+├── output_images/                # Processed images appear here \
+│   └── sample_thermal.jpg  
 │
-├── input_images/                 # Drop images here (trigger CI)
-│   └── sample.jpg
-│
-├── output_images/                # Processed images appear here
-│   └── sample_thermal.jpg       
-│
-├── processor.py                  # Image processing logic
-├── test_process.py               # Pytest validations
-├── requirements.txt              # Project Dependencies
-│       
+\
+├── processor.py                  # Image processing logic\
+├── test_process.py               # Pytest validations\
+├── requirements.txt              # Project Dependencies\
+│       \
 └── README.md
 
 ---
@@ -108,4 +116,4 @@ pytest test_process.py
 - Dasico, Jerome - Security
 - Moral, Justine - DevOps Engineer
 - Ocillos, Amberdawn - Tester
-- Quinto, Francis Kian - Documenter/ Presenter**
+- Quinto, Francis Kian - Documenter/ Presenter
