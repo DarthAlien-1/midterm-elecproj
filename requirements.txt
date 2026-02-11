@@ -3,5 +3,6 @@ pytest
 numpy
 flake8
 bandit
+pip-audit
 
 
