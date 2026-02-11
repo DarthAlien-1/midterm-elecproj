@@ -104,9 +104,9 @@ pytest test_process.py
 ---
 
 ## Author
-Clemente, Jose Fernando - Image Processing Lead
-Dasico, Jerome - Security
-Moral, Justine - DevOps Engineer
-Ocillos, Amberdawn - Tester
-Quinto, Francis Kian - Documenter/ Presenter
+- Clemente, Jose Fernando - Image Processing Lead 
+- Dasico, Jerome - Security
+- Moral, Justine - DevOps Engineer
+- Ocillos, Amberdawn - Tester
+- Quinto, Francis Kian - Documenter/ Presenter
 
