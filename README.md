@@ -104,7 +104,7 @@ Each input image undergoes the following operations:
 
 ## Author
 - Clemente, Jose Fernando - Image Processing Lead 
-- Dasico, Jerome - Security
-- Moral, Justine - DevOps Engineer
-- Ocillos, Amberdawn - Tester
+- Dasico, Jerome - DevOps Security
+- Moral, Justine - Tester
+- Ocillos, Amberdawn - DevOps
 - Quinto, Francis Kian - Documenter/ Presenter
